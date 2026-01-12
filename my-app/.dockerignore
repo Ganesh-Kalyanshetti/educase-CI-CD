@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Build output (built inside Docker)
+dist
+build
+
+# Git files
+.git
+.gitignore
+
+# Docker files (optional)
+Dockerfile
+docker-compose.yml
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Logs
+*.log
+
