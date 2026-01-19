@@ -15,8 +15,11 @@ pipeline {
 
         stage('Docker Build') {
             steps {
+                dir('my-app')
+                {
                 script {
                     dockerImage = docker.build("${IMAGE_NAME}:latest1")
+                }
                 }
             }
         }
